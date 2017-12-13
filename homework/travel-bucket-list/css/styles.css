@@ -1,7 +1,7 @@
 #top-bar
 {
   font-weight:bold;
-  background: pink; 
+  background: rgb(226, 128, 174); 
 	  padding-top: 30px;
 	  padding-bottom: 30px;
 	  padding-right: 30px;
@@ -23,13 +23,52 @@ span {
 }
 
 #first-pic{ 
-	background: rgb(201, 223, 246);
+	background: rgb(102, 172, 188);
 	font-size: 14px 
 	  padding-top: 50px;
-	  padding-bottom: 50px;
+	  padding-bottom: 40px;
 	  padding-right: 50px;
 	  padding-left: 50px;
 	  text-align: center;
+	  color:white;
 	 
 }
 
+
+#sec-pic{ 
+	background: rgb(94, 149, 162);
+	font-size: 14px 
+	  padding-top: 50px;
+	  padding-bottom: 40px;
+	  padding-right: 50px;
+	  padding-left: 50px;
+	  text-align: center;
+	  color: white;
+	 
+}
+
+#third-pic{ 
+	background: rgb(226, 110, 159);
+	font-size: 14px 
+	  padding-top: 50px;
+	  padding-bottom: 40px;
+	  padding-right: 50px;
+	  padding-left: 50px;
+	  text-align: center;
+	  color: white;
+	 
+}
+
+
+
+#lower-footer
+{
+font-weight:bold;
+text-align: center; 
+font-size: 16px
+	  padding-top: 60px;
+	  padding-bottom: 30px;
+	  padding-right: 30px;
+	  padding-left: 30px;
+
+}
