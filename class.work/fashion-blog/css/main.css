@@ -1,0 +1,25 @@
+#header { color: red;
+
+  text-align: left;
+
+  font-size: 24px
+
+ }
+ #sub-header{
+
+  text-align: left;
+
+  font-size: 18px
+
+ }
+
+ #menu-bar
+{ color: grey;
+text-align: left; 
+font-size: 16px
+text-decoration:underline;
+
+}
+span {
+  margin-left: 50px;
+}
