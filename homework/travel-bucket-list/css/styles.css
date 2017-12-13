@@ -1,0 +1,35 @@
+#top-bar
+{
+  font-weight:bold;
+  background: pink; 
+	  padding-top: 30px;
+	  padding-bottom: 30px;
+	  padding-right: 30px;
+	  padding-left: 30px;
+  text-align: center;
+  color: white;
+  font-size: 24px
+
+}
+#sub-menu
+{
+font-weight:bold;
+text-align: center; 
+font-size: 16px
+
+}
+span {
+  margin-left: 50px;
+}
+
+#first-pic{ 
+	background: rgb(201, 223, 246);
+	font-size: 14px 
+	  padding-top: 50px;
+	  padding-bottom: 50px;
+	  padding-right: 50px;
+	  padding-left: 50px;
+	  text-align: center;
+	 
+}
+
