@@ -48,10 +48,10 @@ span {
 }
 
 #third-pic{ 
-	background: rgb(226, 110, 159);
+	background: pink;
 	font-size: 14px 
 	  padding-top: 50px;
-	  padding-bottom: 40px;
+	  padding-bottom: 30px;
 	  padding-right: 50px;
 	  padding-left: 50px;
 	  text-align: center;
@@ -65,8 +65,8 @@ span {
 {
 font-weight:bold;
 text-align: center; 
-font-size: 16px
-	  padding-top: 60px;
+font-size: 24px
+	  padding-top: 30px;
 	  padding-bottom: 30px;
 	  padding-right: 30px;
 	  padding-left: 30px;
