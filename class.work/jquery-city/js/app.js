@@ -16,3 +16,17 @@ function changeToThird() {
 
 	$('#bigimage').attr('src', 'img/3.jpg')
 }
+
+$('#fourth').click(changeToFourth)
+function changeToFourth() {
+
+	$(this).img ('src', 'img/4.jpg')
+}
+
+$('.thumb').click(changeBigImage)
+function changeBigImage() {
+var imageUrl = $(this).attr('src');
+$('#bigimage').attr('src', imageUrl); 
+
+}
+
