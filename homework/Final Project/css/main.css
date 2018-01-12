@@ -61,7 +61,6 @@ h3 {
 }
 
 
-
 #header h2 {
 	font-size: 27px;
 	margin-bottom: 9px;
@@ -94,8 +93,18 @@ h3 {
   background: white;
   align-content: center;
 margin: 0 auto;
+-webkit-transform: skew(20deg);
+-moz-transform: skew(20deg);
+-o-transform: skew(20deg);
 }
  
+.text{
+-webkit-transform: skew(-20deg);
+-moz-transform: skew(-20deg);
+-o-transform: skew(-20deg);
+}
+
+
 textarea {
 	resize: none;
 }
