@@ -1,5 +1,6 @@
+
 $(document).ready(function() {
-	// Test for placeholder support
+    // Test for placeholder support
     $.support.placeholder = (function(){
         var i = document.createElement('input');
         return 'placeholder' in i;
