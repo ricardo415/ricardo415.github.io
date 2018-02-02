@@ -11,6 +11,7 @@ body {
 #wrapper {
 	padding: 54px;
 	width: 100%;
+	left: 100%;
 	align-content: center;
 	background: black;
 }
@@ -89,7 +90,7 @@ h3 {
   width: 50%;
   height: 100%;
   padding: 60px;
-  border: 6px solid white;
+  border: 6px solid grey;
   background: white;
   align-content: center;
 margin: 0 auto;
@@ -105,50 +106,45 @@ margin: 0 auto;
 }
 
 
-textarea {
-	resize: none;
-}
-.form-label {
-	font-size: 12px;
-	color: #CCCCCC;
-	margin: 0;
-	display: block;
-	opacity: 1;
-	-webkit-transition: .333s ease top, .333s ease opacity;
-	transition: .333s ease top, .333s ease opacity;
-}
-.form-control {
-	border-radius: 0;
-	border-color: #ccc;
-   	border-width: 0 0 2px 0;
-   	border-style: none none solid none;
-   	box-shadow: none;
-}
-.form-control:focus {
-	box-shadow: none;
-	border-color: #5e9bfc;
-}
-.js-hide-label {
-	opacity: 0; 	
-}
-.js-unhighlight-label {
-	color: #999 
-}
-.btn-start-order {
-	background: 0 0 #ffffff;
-    border: 1px solid #2f323a;
-    border-radius: 3px;
-    color: #2f323a;
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    line-height: inherit;
-    margin: 30px 0;
-    padding: 10px 50px;
-    text-transform: uppercase;
-    transition: all 0.25s ease 0s;
-}
-.btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
-	border-color: #5e9bfc;
-	color: #5e9bfc;
 
+.carousel-inner .item {
+	text-align: center !important;
+	color: white;
+	background: black;
+}
+
+@media (max-width: 570px) {
+	.carousel-control.left {
+		left: 0;
+	}
+	.carousel-control.right {
+		right: 0;
+	}
+}
+
+.carousel.carousel-fade .item {
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+	opacity:0;
+}
+
+.carousel.carousel-fade .active.item {
+	opacity:1;
+}
+
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+	left: 0;
+	z-index: 2;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.carousel.carousel-fade .next,
+.carousel.carousel-fade .prev {
+	left: 0;
+	z-index: 1;
 }
